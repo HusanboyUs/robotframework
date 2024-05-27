@@ -1300,3 +1300,44 @@ class Ja(Language):
     but_prefixes = ['ただし', '但し']
     true_strings = ['真', '有効', 'はい', 'オン']
     false_strings = ['偽', '無効', 'いいえ', 'オフ']
+
+
+class Uz(Language):
+    """Uzbek"""
+    settings_header = 'Sozlamalar'
+    variables_header = "O'zgaruvchi"
+    test_cases_header = 'Test Namunalar'
+    tasks_header = 'Topshiriqlar'
+    keywords_header = "Kalit So'zlar"
+    comments_header = 'Izohlar'
+    library_setting = 'Kutubxona'
+    resource_setting = 'Manba'
+    variables_setting = "O'zgaruvchi"
+    documentation_setting = 'Hujjatnoma'
+    metadata_setting = 'Metadata'
+    suite_setup_setting = "To'plam O'rnatish"
+    suite_teardown_setting = "To'plam Tugatish"
+    test_setup_setting = "Test O'rnatish"
+    test_teardown_setting = 'Test Tugatish'
+    test_template_setting = 'Test Qolipi'
+    test_timeout_setting = 'Test Vaqti Tugashi'
+    test_tags_setting = 'Test Yorliqlari'
+    task_setup_setting = "Topshiriq O'rnatish"
+    task_teardown_setting = 'Topshiriq Tugatish'
+    task_template_setting = 'Topshiriq Qolipi'
+    task_timeout_setting = 'Topshiriq Vaqti Tugashi'
+    task_tags_setting = 'Topshiriq Yoriqnomalari'
+    keyword_tags_setting = "Kalitso'z Yoriqnomalari"
+    tags_setting = 'Yorliqlar'
+    setup_setting = "O'rnatish"
+    teardown_setting = 'Tugatish'
+    template_setting = 'Qolip'
+    timeout_setting = 'Vaqt Chegarasi'
+    arguments_setting = 'Argumentlar'
+    given_prefixes = ['Berilgan']
+    when_prefixes = ['Qachon Ki']
+    then_prefixes = ['Keyin']
+    and_prefixes = ['Va']
+    but_prefixes = ['Lekin']
+    true_strings = ["Tog'ri", 'Ha', 'Ochiq']
+    false_strings = ["Yolg'on", "Yo'q", 'Yopiq', "Yo'qlik"]
